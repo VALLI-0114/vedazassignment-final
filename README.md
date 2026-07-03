@@ -11,9 +11,9 @@ plus a deployment write-up for serving the result on a VPS with vLLM.
 |---|---|
 | GitHub repository | this repo |
 | Write-up (PDF/Markdown) | [`writeup/vLLM_VPS_Hosting_Writeup.pdf`](writeup/vLLM_VPS_Hosting_Writeup.pdf) ([Markdown source](writeup/vLLM_VPS_Hosting_Writeup.md)) |
-| Trained adapter/model (adapter_model.safetensors or HF link) | Not available (see **Note** above) |
-| Evidence that training completed | Not available (see **Note** above) |
-| Sample inference outputs using the trained model | Not available (see **Note** above) |
+| Trained adapter/model (adapter_model.safetensors or HF link) | see [3. Model Adapter](#3-model-adapter) below |
+| Evidence that training completed | see [5. Training Evidence](#5-training-evidence) |
+| Sample inference outputs using the trained model | see [6. Sample Inference](#6-sample-inference) |
 
 ## Repo Structure
 
@@ -110,3 +110,22 @@ reverse proxy, OpenAI-compatible client usage, monitoring notes).
 
 MIT — see [LICENSE](LICENSE). Conversation data belongs to Vedaz and is
 included here only for this assessment.
+
+## 5. Training Evidence
+
+*Note: Since the environment lacks a GPU, this section is a placeholder for the evidence of training completion.* 
+
+Once you run `finetuning/finetune_qwen_vedaz.py`, training logs will be generated. You can paste your terminal output showing the completed training epochs or a screenshot of your Weights & Biases loss curve here.
+
+## 6. Sample Inference
+
+*Note: Placeholder for sample inference outputs using the trained model.*
+
+Once the model adapter is generated, you can load it and run inference. Example format:
+
+**Prompt:**
+> Please explain the impact of Saturn in the 7th house.
+
+**Response (Trained Model):**
+> (The fine-tuned model's response will be placed here)
+
