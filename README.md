@@ -11,7 +11,9 @@ plus a deployment write-up for serving the result on a VPS with vLLM.
 |---|---|
 | GitHub repository | this repo |
 | Write-up (PDF/Markdown) | [`writeup/vLLM_VPS_Hosting_Writeup.pdf`](writeup/vLLM_VPS_Hosting_Writeup.pdf) ([Markdown source](writeup/vLLM_VPS_Hosting_Writeup.md)) |
-| Model adapter / HF link | see [Model Adapter](#model-adapter) below |
+| Trained adapter/model (adapter_model.safetensors or HF link) | Not available (see **Note** above) |
+| Evidence that training completed | Not available (see **Note** above) |
+| Sample inference outputs using the trained model | Not available (see **Note** above) |
 
 ## Repo Structure
 
