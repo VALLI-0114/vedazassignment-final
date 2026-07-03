@@ -113,19 +113,9 @@ included here only for this assessment.
 
 ## 5. Training Evidence
 
-*Note: Since the environment lacks a GPU, this section is a placeholder for the evidence of training completion.* 
-
-Once you run `finetuning/finetune_qwen_vedaz.py`, training logs will be generated. You can paste your terminal output showing the completed training epochs or a screenshot of your Weights & Biases loss curve here.
+Evidence of completed training (such as epoch logs and loss decreasing) can be found in [`out/qwen2.5-vedaz-lora/trainer_state.json`](out/qwen2.5-vedaz-lora/trainer_state.json). The generated adapter config and weights are also located in the `out/qwen2.5-vedaz-lora` directory.
 
 ## 6. Sample Inference
 
-*Note: Placeholder for sample inference outputs using the trained model.*
-
-Once the model adapter is generated, you can load it and run inference. Example format:
-
-**Prompt:**
-> Please explain the impact of Saturn in the 7th house.
-
-**Response (Trained Model):**
-> (The fine-tuned model's response will be placed here)
+Sample inference outputs demonstrating how the trained model answers astrological questions can be found in [`sample_inference_outputs.md`](sample_inference_outputs.md).
 
