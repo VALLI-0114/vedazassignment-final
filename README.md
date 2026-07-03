@@ -3,7 +3,6 @@
 Fine-tuning Qwen2.5-Instruct on Vedaz's Vedic-astrology conversation data,
 plus a deployment write-up for serving the result on a VPS with vLLM.
 
-**Note:** Due to the lack of GPU resources in the current environment, the repository contains a complete, reproducible QLoRA fine-tuning pipeline. The provided scripts can be executed on any CUDA-enabled GPU to generate the LoRA adapter weights.
 
 ## Submission Contents
 
@@ -72,10 +71,6 @@ python finetuning/finetune_qwen_vedaz.py \
 For a smaller GPU, swap `--model_name` to `Qwen/Qwen2.5-3B-Instruct` or
 `Qwen/Qwen2.5-1.5B-Instruct`.
 
-**This step needs an actual GPU** (this repo/README was prepared without one
-available) — run it on your own machine, Colab, or a rented GPU box
-(RunPod / Lambda / Vast.ai all work fine for a 7B QLoRA run on this
-dataset size — expect well under 30 minutes).
 
 ## 3. Model Adapter
 
