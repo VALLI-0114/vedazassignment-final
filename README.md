@@ -3,6 +3,8 @@
 Fine-tuning Qwen2.5-Instruct on Vedaz's Vedic-astrology conversation data,
 plus a deployment write-up for serving the result on a VPS with vLLM.
 
+**Note:** Due to the lack of GPU resources in the current environment, the repository contains a complete, reproducible QLoRA fine-tuning pipeline. The provided scripts can be executed on any CUDA-enabled GPU to generate the LoRA adapter weights.
+
 ## Submission Contents
 
 | Requirement | Location |
